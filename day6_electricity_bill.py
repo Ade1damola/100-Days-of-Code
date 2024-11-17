@@ -17,6 +17,7 @@ tax_amount = total_charge_before_tax * (tax_rate / 100)
 total_bill = total_charge_before_tax + tax_amount
  
 print("---------------------------------------------------")
+print("ELECTRICITY BILL")
 print("Amount of units consumed: ", units_consumed, "units")
 print("Cost per unit: ", cost_per_unit)
 print("Fixed charge: ", fixed_charge, "$/KW")
